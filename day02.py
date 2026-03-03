@@ -6,5 +6,5 @@ for sale in sales_data:
     if sale>5000:
         high_value_sales.append(sale)
 
-print(f"all sales", sales_data)
+print("all sales", sales_data)
 print("high value sales(filtered) ",high_value_sales)
