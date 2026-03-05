@@ -11,8 +11,8 @@ def format_movie_name(clean_name):
 
 filtered_movies=[]
 
-for movie in raw_movies:
-    rating=movie["rating"]
+for movie in raw_movies: #get the dictionary data from the list
+    rating=movie["rating"] #get the values from the dictionary
     if rating>8.0:
         filtered_movies.append(rating)
 
